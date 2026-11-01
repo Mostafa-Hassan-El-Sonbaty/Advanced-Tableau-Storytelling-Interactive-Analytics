@@ -27,18 +27,22 @@ A research organization needs to understand how wealth, health, and demographics
 - **Anomalies:** Zimbabwe (133% inflation), Iraq (52.3% growth), Chad (38%)
 
 ## 📁 Repository Structure
+
+```text
+.
 ├── data/
-│ └── Country_Clean.xlsx
+│   └── Country_Clean.xlsx
 ├── tableau/
-│ └── Tableau_Packaged_Workbook.twb
+│   └── Tableau_Packaged_Workbook.twb
 ├── docs/
-│ └── Project_Documentation.pdf
+│   └── Project_Documentation.pdf
 ├── screenshots/
-│ ├── dashboard1_overview.png
-│ ├── dashboard2_economy.png
-│ ├── dashboard3_demographics.png
-│ └── story.png
+│   ├── dashboard1_overview.png
+│   ├── dashboard2_economy.png
+│   ├── dashboard3_demographics.png
+│   └── story.png
 └── README.md
+```
 
 ## ▶️ How to Use
 1. Download the repository.
