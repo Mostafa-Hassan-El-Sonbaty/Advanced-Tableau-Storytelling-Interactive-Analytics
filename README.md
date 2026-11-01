@@ -15,7 +15,7 @@ A research organization needs to understand how wealth, health, and demographics
 ## 🛠️ Features
 - **7 visualization types:** Map, Bar, Histogram, Box Plot, Scatter + Trend Line, Treemap, Heatmap
 - **6 parameters:** Indicator, Number of Countries, High-Income Cutoff, Middle-Income Cutoff, Inflation Alert Level, Selected Country
-- **8 dashboard actions:** 3 parameter, 2 filter, 3 highlight
+- **8 dashboard actions:** 3 parameters, 2 filters, 3 highlights
 - **Calculated fields:** Income Group, Top-N flag, selected metric, KPIs, alert flags
 - **Navigation:** Cross-dashboard buttons and a global Income Group filter
 - **Tableau Story:** 5 story points, one message each
@@ -27,3 +27,20 @@ A research organization needs to understand how wealth, health, and demographics
 - **Anomalies:** Zimbabwe (133% inflation), Iraq (52.3% growth), Chad (38%)
 
 ## 📁 Repository Structure
+├── data/
+│ └── Country_Clean.xlsx
+├── tableau/
+│ └── Tableau_Packaged_Workbook.twb
+├── docs/
+│ └── Project_Documentation.pdf
+├── screenshots/
+│ ├── dashboard1_overview.png
+│ ├── dashboard2_economy.png
+│ ├── dashboard3_demographics.png
+│ └── story.png
+└── README.md
+
+## ▶️ How to Use
+1. Download the repository.
+2. Open `Tableau_Packaged_Workbook.twb` in Tableau Desktop or Tableau Public.
+3. If the data source is not found, re-point it to `data/Country_Clean.xlsx`.
